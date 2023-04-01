@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'PopupDialog/Classes/**/*'
   s.swift_version = '5.0'
 
-  s.dependency 'DynamicBlurView', :git => 'https://github.com/bonninf/DynamicBlurView.git', :branch => 'master'
+  s.dependency 'DynamicBlurView', '~> 5.0'
 end
